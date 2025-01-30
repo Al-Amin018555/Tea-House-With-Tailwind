@@ -14,10 +14,52 @@
     <script src="https://kit.fontawesome.com/ea1f577ccb.js" crossorigin="anonymous"></script>
     <!-- tailwind css cdn -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style>
+        .font-manrope {
+            font-family: "Manrope", serif;
+        
+        }
+    </style>
 
 </head>
+
 <body>
-    
+    <main class="max-w-6xl mx-auto">
+        <!-- banner -->
+        <header class="md:flex">
+            <!-- banner text -->
+            <div class="space-y-7 w-full">
+                <h1 class="text-5xl md:w-full md:text-7xl font-manrope font-extrabold">It's good <br>
+                    tea time at The <br>
+                    Tea House</h1>
+                <p class="w-full md:w-2/4 text-xl font-manrope text-gray-500">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste
+                    Buds.</p>
+                <button
+                    class="font-manrope px-5 py-4 bg-linear-to-r from-orange-500 to-red-500 text-white font-bold rounded-xl">Explore
+                    More <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
+            </div>
+            <!-- banner img -->
+            <div class="relative">
+                <div>
+                    <img class="w-full" src="images/banner.png" alt="">
+
+                </div>
+                <!-- card-container -->
+                <div class="flex items-center shadow-lg bg-white px-4 py-3
+                absolute top-95 left-20 md:top-65 md:left-1 rounded-2xl">
+                    <!-- icon -->
+                    <div>
+                        <i class="text-amber-400 text-3xl fa-solid fa-star"></i>
+                    </div>
+                    <!-- text -->
+                    <div class="ml-4">
+                        <h3 class="font-manrope text-2xl text-black font-bold">5.00</h3>
+                        <p class="text-gray-500 text-xl">Trust Pilot Ratings</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </main>
 </body>
 
 </html>
